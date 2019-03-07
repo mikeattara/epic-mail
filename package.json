@@ -2,9 +2,9 @@
   "name": "epic-mail",
   "version": "0.1.0",
   "description": "A web app that helps people exchange messages/information over the internet",
-  "main": "\"\"",
+  "main": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "gulp"
   },
   "repository": {
     "type": "git",
