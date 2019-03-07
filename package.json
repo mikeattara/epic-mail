@@ -1,0 +1,23 @@
+{
+  "name": "epic-mail",
+  "version": "0.1.0",
+  "description": "A web app that helps people exchange messages/information over the internet",
+  "main": "\"\"",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeattara/epic-mail.git"
+  },
+  "author": "Mike Perry Y Attara <mpyebattara@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikeattara/epic-mail/issues"
+  },
+  "homepage": "https://mikeattara.github.io/epic-mail/ui/",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0"
+  }
+}
