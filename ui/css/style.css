@@ -25,6 +25,9 @@ body {
   background-color: aliceblue;
 }
 
+p > span {
+  align-self: flex-end;
+}
 .container {
   display: flex;
   flex-direction: row;
