@@ -1,0 +1,75 @@
+/* Variables */
+:root {
+  --white: #ffffff;
+  --blue: #2962ff;
+  --grey: #333;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  min-height: 100vh;
+}
+
+.hero {
+  text-align: center;
+  margin: auto;
+  max-width: 520px;
+}
+
+.heading-primary {
+  font-size: 18px;
+  color: var(--grey);
+}
+
+.heading-primary > span {
+  color: var(--blue);
+  display: block;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+.text-primary {
+  border-left: 2px solid var(--blue);
+  border-right: 2px solid var(--blue);
+  padding: 1rem;
+  margin: 2rem auto;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  min-height: 38px;
+  padding: 1rem;
+  text-decoration: none;
+  border: 1px solid var(--blue);
+  text-transform: uppercase;
+  margin-top: 1rem;
+  width: 45%;
+}
+
+.btn-action {
+  background-color: var(--blue);
+  color: var(--white);
+}
