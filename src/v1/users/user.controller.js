@@ -1,4 +1,3 @@
-import express from 'express';
 import userService from './user.service';
 
 function authenticate(req, res, next) {
@@ -32,13 +31,3 @@ function update(req, res, next) {
     .then(() => res.json({}))
     .catch(err => next(err));
 }
-
-const router = express.Router();
-
-// routes
-router.post('/login', authenticate);
-router.post('/signup', register);
-router.get('/:id', getById);
-router.put('/:id', update);
-
-export default router;
