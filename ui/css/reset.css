@@ -1,0 +1,31 @@
+:root {
+  --white: #ffffff;
+  --dark-blue: #0f0859;
+  --blue: #2962ff;
+  --grey: rgb(102, 102, 102);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+input,
+textarea {
+  font-size: 1rem;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
