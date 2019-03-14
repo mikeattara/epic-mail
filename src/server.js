@@ -4,7 +4,7 @@ import cors from 'cors';
 import rootpath from 'rootpath';
 import auth from './v1/helpers/jwt';
 import errorHandler from './v1/helpers/error-handler';
-import userRoute from './v1/routes/user.route';
+import userRoute from './v1/routes/user';
 
 dotenv.config();
 
