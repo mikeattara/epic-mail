@@ -19,3 +19,13 @@ html {
 *:after {
   box-sizing: inherit;
 }
+
+input,
+textarea {
+  font-size: 1rem;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}

@@ -20,7 +20,7 @@
           <h4 class="profile-email">sample@epicmail.com</h4>
         </div>
         <div class="menu">
-          <button class="button" id="modalBtn">Create message</button>
+          <button class="button primary" id="modalBtn">Create message</button>
           <h4 class="heading">Mailboxes</h4>
           <ul class="menu-list">
             <li class="menu-list-item selected">Inbox</li>
@@ -28,7 +28,7 @@
             <li class="menu-list-item">Drafts</li>
           </ul>
           <div class="groups">
-            <button class="button">Create group</button>
+            <button class="button primary">Create group</button>
             <h4 class="heading">Groups</h4>
             <ul class="group-list">
               <li class="group-list-item">Cycle 42</li>
@@ -88,7 +88,7 @@
       <div class="content">
         <header class="header">
           <span id="closeBtn" class="close-btn">&times;</span>
-          <h2 class="title">Create message</h2>
+          <h2 class="title">Create new message</h2>
         </header>
         <article class="body">
           <div class="input-group">
@@ -99,12 +99,20 @@
             <label for="recipient">Recipient</label>
             <input type="text" name="subject" />
           </div>
-          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+          <div class="input-group">
+            <label for="message">Message</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="15"
+            ></textarea>
+          </div>
         </article>
         <footer class="modal-actions">
-          <button class="button send">Send message</button>
-          <button class="button save">Save as draft</button>
-          <button class="button cancel">Cancel</button>
+          <button class="button primary">Send message</button>
+          <button class="button secondary">Save as draft</button>
+          <button class="button secondary">Cancel</button>
         </footer>
       </div>
     </div>

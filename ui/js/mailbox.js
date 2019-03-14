@@ -8,7 +8,7 @@ closeModalBtn.addEventListener("click", closeModal);
 window.addEventListener("click", close);
 
 function openModal() {
-  modal.style.display = "block";
+  modal.style.display = "flex";
 }
 
 function closeModal() {
