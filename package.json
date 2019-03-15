@@ -3,10 +3,6 @@
   "version": "0.1.0",
   "description": "A web app that helps people exchange messages/information over the internet",
   "main": "src/server.js",
-  "engines": {
-    "node": "11.11.0",
-    "npm": "6.7.0"
-  },
   "scripts": {
     "start:ui": "gulp",
     "start": "nodemon --exec babel-node src/server.js",
