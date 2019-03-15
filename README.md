@@ -1,4 +1,4 @@
-# EPIC Mail [![Build Status](https://travis-ci.com/mikeattara/epic-mail.svg?branch=develop)](https://travis-ci.com/mikeattara/epic-mail) [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/mikeattara/epic-mail/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage)](https://codeclimate.com/github/mikeattara/epic-mail/test_coverage)
+# EPIC Mail [![Build Status](https://travis-ci.com/mikeattara/epic-mail.svg?branch=develop)](https://travis-ci.com/mikeattara/epic-mail) [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/mikeattara/epic-mail/maintainability) [![Coverage Status](https://coveralls.io/repos/github/mikeattara/epic-mail/badge.svg?branch=develop)](https://coveralls.io/github/mikeattara/epic-mail?branch=develop)
 
 A web app that helps people exchange messages/information over the internet
 
