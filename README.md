@@ -1,6 +1,4 @@
-[![Build Status](https://travis-ci.com/mikeattara/epic-mail.svg?branch=develop)](https://travis-ci.com/mikeattara/epic-mail)
-
-# EPIC Mail
+# EPIC Mail [![Build Status](https://travis-ci.com/mikeattara/epic-mail.svg?branch=develop)](https://travis-ci.com/mikeattara/epic-mail)
 
 A web app that helps people exchange messages/information over the internet
 
